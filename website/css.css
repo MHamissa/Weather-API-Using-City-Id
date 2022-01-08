@@ -1,0 +1,35 @@
+
+body{
+    font-family:cursive;
+    background-image:url( "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGxhbmRzY2FwZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+}
+#container{
+   display: flex;
+   flex-direction:column;
+}
+h1{
+    color: #F6F6F6;
+    text-align: center;
+}
+#information{
+   order: 1
+}
+#button{
+   order: 3;
+}
+#feelingLabel{
+   margin:10px;
+   width:100px;
+   height:100px;
+   padding:8px;
+}
+#zipCode{
+   order:2;
+       background-color: #FCDA00;
+
+}
+#feeling{
+       background-color: #FCDA00;
+
+}
+   
